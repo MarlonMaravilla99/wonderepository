@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+div {
+    outline: solid 5px black;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/brickback2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.nav {
+    margin: 0 auto;
+    width: 15%;
+    height: 12.5%;
+}
+
+#logo {
+    margin: 0 auto;
+    width: 21%;
+    height: 17.5%;
+
+}
