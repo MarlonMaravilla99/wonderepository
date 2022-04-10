@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -31,7 +34,7 @@ body {
     background-image: url("../images/brickback1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
 }
 
@@ -84,5 +87,8 @@ body {
 #underground {
     height: 100vh;
     width: 100vw;
-    background-color: brown;
+    background-image: url("../images/underground.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
