@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    width: 100vw;
     height: 200vh;
     overflow-y: hidden;
 }
@@ -26,7 +27,7 @@ body {
 
 #main {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url("../images/brickback1.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -54,20 +55,34 @@ body {
     width: 100%;
 
 }
-#startbut1:hover{
-    opacity: 0;
-}
-#startbut2{
-    position: relative;
-    top: -80%;
-     z-index: -1;
-}
-#aboutbut1:hover{
-    opacity: 0;
-}
-#aboutbut2{
-    position: relative;
-    top: -80%;
-    z-index: -1;
+#start{
+    margin: auto;
+    width:100%;
+    background-image:url('../images/Start1.png') ;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
+#start:hover{
+    background-image: url('../images/Start2.png');
+}
+
+#info {
+    margin: auto;
+    width:100%;
+    background-image:url('../images/About1.png') ;
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;  
+}
+
+#info:hover{
+    background-image: url('../images/About2.png');
+}
+
+#underground {
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+}
