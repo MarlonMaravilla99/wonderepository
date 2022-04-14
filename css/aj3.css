@@ -6,34 +6,35 @@ body {
     margin: 0;
     padding: 0;
     width: 100vw;
-    height: 100vh;
     overflow-y: scroll;
 }
 
 .headtxt{
-    font-weight: 500;
+    font-weight: 700;
     Font-Family: 'Oswald', Sans-Serif;
     Font-Size: 48px;
+    text-align: center;
 }
 
 .bodytxt{
-    Font-Family: 'Quattrocento', Serif;
-    Font-Size: 16px;
+    Font-Family: 'Quattrocento Sans', Sans-Serif;
+    Font-Size: 17.75px;
+    font-weight: 500;
 }
 
-div{
+/* div{
     outline: solid 5px black;
-}
+} */
 
 #background{
     width: 100vw;
-    height: 250vh;
+    height: 2200px;
     background-color: #2b0177;
 }
 
 #main{
     width: 92vw;
-    height: 240vh;
+    height: 2120px;
     border-radius: 25px;
     background-color: white;
     position: relative;
@@ -41,6 +42,24 @@ div{
     top: 5vh;
 }
 
+#header{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+#back{
+    width: 8%;
+    height: 150px;
+    background-image: url("../images/back1.png");
+    background-size: 95%;
+    background-position: center;
+    float: left;
+    position: relative;
+    left: 5%;
+}
+#back:hover{
+    background-image: url("../images/back2.png");
+}
 #logo{
     width: 25%;
     height: 150px;
@@ -67,9 +86,8 @@ div{
 }
 #shoename{
     position: relative;
-    top: 20px;
+    top: 15px;
     text-align: center;
-
 
 }
 #shoedesc{
@@ -77,4 +95,105 @@ div{
     text-align: center;
     position: relative;
     top: 45px;
+}
+
+#thirdsec{
+    width: 100%;
+    height: 450px;
+}
+.mainleft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.mainright{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+#first{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(../images/aj3img1.png) ;
+    background-position: center;
+    background-size: 100%;
+}
+#second{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url(../images/aj3moving2.gif) ;
+    background-position: center;
+    background-size: 100%;
+}
+#third{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url(../images/aj3img2.png) ;
+    background-position: center;
+    background-size: 100%;
+}
+#fourth{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url(../images/aj3moving3.gif) ;
+    background-position: center;
+    background-size: 100%;
+}
+#fourthsec{
+    width: 100%;
+    height: 450px;
+}
+#highlight{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/aj3img3.png);
+    background-position: center;
+    background-size: 100%;
+}
+#hist{
+    width: 100%;
+    height: 100%;
+    background-color: gray; 
+}
+#remark{
+    position: relative;
+    top: 35px;
+    text-align: center;
+}
+#padhigh{
+    padding: 0 7%;
+    text-align: center;
+    position: relative;
+    top: 65px;    
+}
+#bottomline{
+    width: 100%;
+    height: 650px;
+    background-color: red;
+    border-radius: 0 0 25px 25px;
+}
+#wjordan{
+    width: 25%;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../images/wjordan.png);
+    background-position: center;
+    position: relative;
+    top: 90px;
+}
+#getem{
+    width: 25%;
+    height: 250px;
+    margin: 0 auto;
+    background-image: url(../images/getem.png);
+    background-position: center;
+    position: relative;
+    top: 90px;
+}
+#getem:hover{
+    background-image: url(../images/getem2.png);
 }
